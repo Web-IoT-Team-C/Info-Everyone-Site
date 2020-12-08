@@ -1,0 +1,21 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EAF2FF;
+}
+
+.main{
+    padding: 2.5%;
+}
+
+.main_top{
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.main_bottom{
+    width: 100%;
+    height: 50%;
+    background-color: gray;
+}
