@@ -2,20 +2,58 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #EAF2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main{
-    padding: 2.5%;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    background-color: red;
 }
 
 .main_top{
     width: 100%;
     height: 50%;
-    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.main_top_map{
+    width: 48%;
+    height: 100%;
+    background-color: white;
+    transition: box-shadow 0.5s;
+    box-shadow: 10px 10px 30px rgba(18, 47, 61, 0.5), -10px -10px 30px rgba(248, 253, 255, 0.9), inset 10px 10px 30px transparent, inset -10px -10px 30px transparent;
+}
+.main_top_video{
+    width: 48%;
+    height: 100%;
+    background-color: white;
+    transition: box-shadow 0.5s;
+    box-shadow: 10px 10px 30px rgba(18, 47, 61, 0.5), -10px -10px 30px rgba(248, 253, 255, 0.9), inset 10px 10px 30px transparent, inset -10px -10px 30px transparent;
 }
 
 .main_bottom{
     width: 100%;
     height: 50%;
     background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.main_bottom_facility{
+    width: 40%;
+    height: 100px;
+    background-color: antiquewhite;
+}
+.main_bottom_comprehensive{
+    width: 20%;
+    height: 100px;
+    background-color: aquamarine;
+}
+.main_bottom_individual{
+    width: 40%;
+    height: 100px;
+    background-color: cadetblue;
 }
